@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  contour: none;
+  font-family: 'Space Grotesk', sem serifa;
+}
+
+html {
+  width: 100vw;
+  height: 100vw;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Menu */
+
+.content {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f1e1f;
+  position: fixed;
+  padding-left:  30rem;
+
+}
+
+.logo{
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.logo h3 {
+  color: white;
+  font-size: 1.6rem;
+ 
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.content .list-menu {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content .list-menu li a {
+    padding top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: blue;
+    font-size:  1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+    
+  }
+
+.content .list-menu li a:hover{
+  background-color: #3333;
+  border-bottom: 1px solid #ffc506;
+  color: #ffc506;
+}
+
+/*first-section*/
+
+.first-section {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(29,29,29, 0.8), rgba(29,29,29, 0.8)),url(./img/Food-blog-widebanner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section .conteudo-principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.first-section h1 {
+  color: #ffc506;
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: 'Space Grotesk', sem serifa;
+ }
+
+.first-section h2 {
+  color: rgb(170, 189, 123);
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.btn button {
+  width: 230px;
+  height: 80px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #ffc506;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
+  margin-top: 5rem;
+  transition: all 400ms ease-in;  
+}
+
+.btn button:hover{
+  border: 1px solid white;
+  background-color: transparent;
+  color: #ffc506;
+}
+
+.btn {
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+}
+
